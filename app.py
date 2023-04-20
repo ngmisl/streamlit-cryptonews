@@ -5,6 +5,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 
 st.title("AI generated summary of Crypto news from the last 24 hours")
+st.markdown("Follow us on [Mastodon](https://mastodon.online/@ngmi)")
 
 # List of RSS feed URLs
 rss_feeds = [
